@@ -1,5 +1,7 @@
 # vir
 
+[![Build Status](https://travis-ci.org/ceralena/vir.svg?branch=master)](https://travis-ci.org/ceralena/vir)
+
 Vir is a simple cross-platform music library management tool.
 
 ## What it Does
