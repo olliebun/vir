@@ -6,5 +6,6 @@ go:
   - "1.10"
 
 before_install:
-  - "go get -u gopkg.in/alecthomas/gometalinter.v2"
+  - "go get github.com/alecthomas/gometalinter"
+  - "go install github.com/alecthomas/gometalinter"
   - "gometalinter --install"
