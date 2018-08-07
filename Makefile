@@ -1,3 +1,6 @@
+all: lint
+	go build ./...
+
 lint: gofmt gometalinter
 
 gofmt:
