@@ -9,6 +9,7 @@ gofmt:
 gometalinter:
 	gometalinter \
 		--exclude=vendor/ \
+		--deadline=60s \
 		--enable=errcheck \
 		--enable=golint \
 		--enable=unparam \
